@@ -1,0 +1,4 @@
+﻿  source.c
+C:\Users\user\source\repos\CG_WarmingUp_1_6\CG_WarmingUp_1_6\source.c(21,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\CG_WarmingUp_1_6\CG_WarmingUp_1_6\source.c(152,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CG_WarmingUp_1_6.vcxproj -> C:\Users\user\source\repos\CG_WarmingUp_1_6\x64\Debug\CG_WarmingUp_1_6.exe
