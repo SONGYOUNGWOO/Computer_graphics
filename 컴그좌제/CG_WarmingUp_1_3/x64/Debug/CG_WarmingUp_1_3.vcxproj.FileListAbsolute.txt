@@ -1,0 +1,2 @@
+D:\VisualStudio\Computer_Graphics\CG_WarmingUp_1_3\x64\Debug\CG_WarmingUp_1_3.exe
+D:\VisualStudio\Computer_Graphics\CG_WarmingUp_1_3\x64\Debug\CG_WarmingUp_1_3.pdb

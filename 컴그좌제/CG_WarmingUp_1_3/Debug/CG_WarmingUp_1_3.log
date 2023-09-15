@@ -1,0 +1,13 @@
+﻿  source.c
+C:\Users\user\source\repos\CG_WarmingUp_1_3\source.c(8,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\CG_WarmingUp_1_3\source.c(31,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\CG_WarmingUp_1_3\source.c(127,19): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\user\source\repos\CG_WarmingUp_1_3\source.c(129,16): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\CG_WarmingUp_1_3\source.c(160,11): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\CG_WarmingUp_1_3\source.c(168,8): warning C4013: 'isdigit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\source\repos\CG_WarmingUp_1_3\source.c(198,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\CG_WarmingUp_1_3\source.c(238,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\CG_WarmingUp_1_3\source.c(251,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\CG_WarmingUp_1_3\source.c(269,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\CG_WarmingUp_1_3\source.c(289,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CG_WarmingUp_1_3.vcxproj -> C:\Users\user\source\repos\CG_WarmingUp_1_3\Debug\CG_WarmingUp_1_3.exe
