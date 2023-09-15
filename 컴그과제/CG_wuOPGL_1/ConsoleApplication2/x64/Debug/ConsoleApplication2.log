@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+C:\Visual studio 2022_2023\2023CG\ConsoleApplication2\ConsoleApplication2\FileName.cpp(13,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  ConsoleApplication2.vcxproj -> C:\Visual studio 2022_2023\2023CG\ConsoleApplication2\x64\Debug\ConsoleApplication2.exe
