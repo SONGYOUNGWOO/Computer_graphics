@@ -1,0 +1,8 @@
+﻿  source.c
+C:\Users\user\source\repos\CG_WarmingUp_1_4\source.c(12,9): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\CG_WarmingUp_1_4\source.c(239,8): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\CG_WarmingUp_1_4\source.c(250,8): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\CG_WarmingUp_1_4\source.c(154,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\CG_WarmingUp_1_4\source.c(157,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\CG_WarmingUp_1_4\source.c(196,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CG_WarmingUp_1_4.vcxproj -> C:\Users\user\source\repos\CG_WarmingUp_1_4\Debug\CG_WarmingUp_1_4.exe
