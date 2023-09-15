@@ -1,0 +1,4 @@
+C:\Users\윤영민\source\repos\CG_WarmingUp_1_2\x64\Debug\CG_WarmingUp_1_2.exe
+C:\Users\윤영민\source\repos\CG_WarmingUp_1_2\x64\Debug\CG_WarmingUp_1_2.pdb
+D:\VisualStudio\Computer_Graphics\CG_WarmingUp_1_2\x64\Debug\CG_WarmingUp_1_2.exe
+C:\Users\user\source\repos\CG_WarmingUp_1_2\x64\Debug\CG_WarmingUp_1_2.exe
