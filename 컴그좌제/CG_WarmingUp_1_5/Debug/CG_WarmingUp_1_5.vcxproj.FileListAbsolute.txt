@@ -1,0 +1,2 @@
+D:\VisualStudio\Computer_Graphics\CG_WarmingUp_1_5\Debug\CG_WarmingUp_1_5.exe
+C:\Users\user\source\repos\CG_WarmingUp_1_5\Debug\CG_WarmingUp_1_5.exe
