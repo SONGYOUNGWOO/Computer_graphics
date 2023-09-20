@@ -2,3 +2,4 @@ C:\Users\윤영민\source\repos\Computer_Graphics\CG_WarmingUp_1_3\Debug\CG_Warm
 C:\Users\윤영민\source\repos\Computer_Graphics\CG_WarmingUp_1_3\Debug\CG_WarmingUp_1_3.pdb
 D:\VisualStudio\Computer_Graphics\CG_WarmingUp_1_3\Debug\CG_WarmingUp_1_3.exe
 C:\Users\user\source\repos\CG_WarmingUp_1_3\Debug\CG_WarmingUp_1_3.exe
+C:\Users\syw98\OneDrive\바탕 화면\컴그과제\CG_WarmingUp_1_3\Debug\CG_WarmingUp_1_3.exe

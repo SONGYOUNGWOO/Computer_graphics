@@ -1,0 +1,61 @@
+화면 크기 변했을 때 이벤트 처리 함수 지정
+ void glutReshapeFunc (void (*func)(int w, int h));
+
+ 출력 함수 지정
+ void glutDisplayFunc (void (*func)(void));
+void main ( int argc, char *argv[] )
+{
+glutInit (&argc, argv);
+glutInitDisplayMode ( GLUT_DOUBLE | GLUT_RGBA ); //--- 디스플레이 모드 설정
+glutInitWindowSize ( 250, 250 ); //--- 윈도우의 크기 지정
+glutCreateWindow ( “Input Control" ); //--- 윈도우 생성
+glutDisplayFunc ( drawScene ); //--- 출력 함수의 지정
+glutMainLoop ();
+}
+
+// 항상 화면 그리는건 여기에 만든다
+void drawScene ()	 
+{
+glClearColor( 0.0f, 0.0f, 1.0f, 1.0f ); //--- 바탕색을 ‘blue’ 로 지정
+glClear( GL_COLOR_BUFFER_BIT ); //--- 설정된 색으로 전체를 칠하기
+//--- 그리기 부분 구현
+glutSwapBuffers ();
+}
+
+마우스 입력
+ void glutMouseFunc (void (*func)(int button, int state, int x, int y));
+ 마우스 버튼과 인자로 지정한 루틴을 연결하여 호출되도록 한다.
+ button (버튼 파라미터): GLUT_LEFT_BUTTON, GLUT_MIDDLE_BUTTON, GLUT_RIGHT_BUTTON
+ state (상태 파라미터): GLUT_UP, GLUT_DOWN
+ x, y:  윈도우에서 마우스의 위치**** 좌측상단기준
+
+
+ 애니메이션 구현을 위한 타이머 설정 함수
+ void glutTimerFunc (unsigned int msecs, (*func)(int value), int value);
+ 타임 아웃이 발생할 경우 호출될 콜백 함수를 등록한다.
+ msecs: 콜백 함수를 호출하기 전까지 기다릴 시간 (밀리세컨 단위)단위중요    
+ func: 호출할 함수의 이름
+ value: 콜백 함수로 전달할 값
+
+필요할때 한번 호출하고 게속 제호출 그리고 필요없으면 호출 X
+void TimerFunction (int value)
+{
+…
+glutPostRedisplay (); // 화면 재 출력
+glutTimerFunc (100, TimerFunction, 1); // 타이머함수 재 설정
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

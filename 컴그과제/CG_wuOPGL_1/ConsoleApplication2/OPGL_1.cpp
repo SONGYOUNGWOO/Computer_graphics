@@ -47,21 +47,11 @@ GLvoid Reshape(int w, int h)				//--- 콜백 함수: 다시 그리기 콜백 함수
 	glViewport(0, 0, 800, 600);
 }
 
-//void RandomRGB()
-//{
-//	r = (GLclampf)dist(eng);
-//	g = (GLclampf)dist(eng);
-//	b = (GLclampf)dist(eng);
-//}
-
 GLvoid Keyboard(unsigned char key, int x, int y)
 {
 	switch (key) {
 	case 'c' :
-		//glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
-		r = 1.0f;
-		g = 0.0f;
-		b = 0.0f;
+		glClearColor(0.0f, 0.0f, 1.0f, 1.0f);
 		break;					//--- 배경색을 청록색으로 설정
 	case 'm' : 
 		glClearColor(1.0f, 0.0f, 1.0f, 1.0f);
@@ -91,7 +81,7 @@ GLvoid Keyboard(unsigned char key, int x, int y)
 		exit(0) ; 
 		break;									//프로그램종료
 	}
-	glutPostRedisplay();													//--- 배경색이 바뀔 때마다 출력 콜백 함수를 호출하여 화면을 refresh 한다
+	glutPostRedisplay();	//--- 배경색이 바뀔 때마다 출력 콜백 함수를 호출하여 화면을 refresh 한다
 }
 void TimerFunction(int value)
 {

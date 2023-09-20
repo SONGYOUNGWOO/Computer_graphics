@@ -1,0 +1,34 @@
+ // 1번 사각형
+ if (clickedRegion == 1) {
+     glColor3f((float)rand() / (float)RAND_MAX, (float)rand() / (float)RAND_MAX, (float)rand() / (float)RAND_MAX); // 랜덤한 색상
+ }
+ else {
+     glColor3f(0.0f, 1.0f, 0.0f); // green
+ }
+ glRectf(-WIN_w, 0.0f, 0.0f, WIN_h / 2);
+ // 2번 사각형
+ if (clickedRegion == 2) {
+     glColor3f((float)rand() / (float)RAND_MAX, (float)rand() / (float)RAND_MAX, (float)rand() / (float)RAND_MAX); // 랜덤한 색상
+ }
+ else {
+     glColor3f(0.0f, 0.0f, 1.0f); // green
+ }
+ glRectf(0.0f, 0.0f, WIN_w / 2, WIN_h / 2);
+
+ // 3번 사각형
+ if (clickedRegion == 3) {
+     glColor3f((float)rand() / (float)RAND_MAX, (float)rand() / (float)RAND_MAX, (float)rand() / (float)RAND_MAX); // 랜덤한 색상
+ }
+ else {
+     glColor3f(1.0f, 0.0f, 0.0f); // red
+ }
+ glRectf(-WIN_w / 2, -WIN_h / 2, 0.0f, 0.0f);
+
+ // 4번 사각형
+ if (clickedRegion == 4) {
+     glColor3f((float)rand() / (float)RAND_MAX, (float)rand() / (float)RAND_MAX, (float)rand() / (float)RAND_MAX); // 랜덤한 색상
+ }
+ else {
+     glColor3f(1.0f, 1.0f, 1.0f); // white
+ }
+ glRectf(0.0f, -WIN_h / 2, WIN_w / 2, 0.0f);

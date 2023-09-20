@@ -1,2 +1,3 @@
 D:\VisualStudio\Computer_Graphics\CG_WarmingUp_1_4\Debug\CG_WarmingUp_1_4.exe
 C:\Users\user\source\repos\CG_WarmingUp_1_4\Debug\CG_WarmingUp_1_4.exe
+C:\Users\syw98\OneDrive\바탕 화면\컴그과제\CG_WarmingUp_1_4\Debug\CG_WarmingUp_1_4.exe

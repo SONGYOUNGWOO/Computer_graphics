@@ -117,7 +117,7 @@ list* make_route(list* route_list,int start_col,int start_row) {
 		node tmp;
 			tmp.col = -1;
 			tmp.row = -1;
-		if (bf == NULL) {
+		if (bf == NULL) { 
 			bf = &tmp;
 		}
 		//위로 이동 가능성 체크
@@ -277,42 +277,44 @@ void display_route(char board[][board_len]) {
 //통제 콘솔
 void console() {
 	srand(time(NULL));
-	list* list = make_list();
-	node* obj = NULL;	
+	list* list = make_list(); // 동적할당
+	node* obj = NULL;	// 길을따라 다니는 놈을 표현할 위치 포인터
 
-	list = make_route(list, 0, 0);
+	list = make_route(list, 0, 0); // 이 함수가 길을 뚫움
 
-	char board[board_len][board_len];
-	draw_route(board, list, obj);
+	char board[board_len][board_len]; //출력용 길(지도)
+	draw_route(board, list, obj); // 출력용 지도를 그림
 
 	while (1) {
-		system("cls");
-		display_route(board);
+		system("cls"); //콘솔 창 비우기
+		display_route(board); //콘솔에 지도 출력
+
 		printf("명령어 목록 - enter : 새 경로 탐색, r: 경로에 오브젝트 생성, +/- : 객체를 경로에 따라 앞/뒤로 이동, q : 프로그램 종료\n");
-		char ch = getch();
+
+		char ch = getch(); // enter필요없이 , 버퍼를 쓰지않고 바로 입력받음
 		switch (ch) {
-		case '\r':
-			delete_list(list);
-			list = make_route(list, 0, 0);
-			obj = NULL;
-			draw_route(board, list, obj);
+		case '\r': // 엔터
+			delete_list(list); // 동적할당한놈 지우기
+			list = make_route(list, 0, 0); // 길뚫고
+			obj = NULL;	//오브젝트 초기화
+			draw_route(board, list, obj); // 지도 그리고
 			break;
-		case 'r': case 'R':
-			obj = list->head;
-			draw_route(board, list, obj);
+		case 'r': case 'R': //오브젝트 생성 및 오브젝트 출발칸으로
+			obj = list->head; // 출발칸으로 세팅
+			draw_route(board, list, obj); //오브젝트를 포함한 지도 다시그림
 			break;
-		case '+':
-			if (obj != NULL) {
+		case '+': //길 따라서 한칸 전진
+			if (obj != NULL) {		//오브젝트가 있을경우
 				obj_move(board, &obj, 1);
 			}
 			break;
-		case '-':
-			if (obj != NULL) {
+		case '-': //길 따라서 한칸 후진
+			if (obj != NULL) {		//오브젝트가 있을경우
 				obj_move(board, &obj, -1);
 			}
 			break;
 		case 'q': case 'Q':
-			return;
+			return;			//main 다음줄로
 			break;
 		}		
 	}
